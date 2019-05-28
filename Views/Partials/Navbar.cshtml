@@ -1,28 +1,34 @@
-﻿<div class="navbar mask">
-    <ul>
-        <li class="no-bullet">
-            <a class ="Visit-Flexitolcouk" href="https://www.flexitol.co.uk/">Visit Flexitol.co.uk</a>
-        </li>
-    </ul>
-</div>
+﻿<nav class="navbar navbar-expand-md navbar-light navbar-bg">
+    <!-- Collapse Button for small devices-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-@*
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">Navbar</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="https://www.flexitol.co.uk/"><span class="visit-flexitol">< Visit Flexitol.co.uk</span></a>
+            </li>
+        </ul>
+    </div>
 
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-*@
+    <div class="justify-content-center">
+        <img class="navbar-brand mx-auto" src="~/Content/images/logo.png" alt="Flexitol Logo" />
+    </div>
+
+
+    <div class="collapse navbar-collapse ml-auto flex-md-row-reverse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="ml-md-3">
+                <img src="~/Content/images/ig.png" alt="Facebook Icon" />
+            </li>
+            <li class="ml-md-3">
+                <img src="~/Content/images/facebook.png" alt="Instagram Icon" />
+            </li>
+            <li class="ml-md-3">
+                <img src="~/Content/images/twitter.png" alt="Twitter Icon" />
+            </li>
+        </ul>
+    </div>
+</nav>
