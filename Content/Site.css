@@ -24,10 +24,10 @@ textarea {
 }
 
 /*Navbar*/
-.testing {
+.mask {
     background-color: #809293;
     width: 1920px;
-    height: 95px;
+    height: 77px;
 }
 
 .Visit-Flexitolcouk {
@@ -41,4 +41,9 @@ textarea {
     line-height: 3.69;
     letter-spacing: normal;
     color: #ffffff;
+    padding-left: 30px;
+}
+
+.no-bullet {
+    list-style-type: none;
 }
