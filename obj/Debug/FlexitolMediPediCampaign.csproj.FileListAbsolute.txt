@@ -80,3 +80,4 @@ C:\Users\Matthew Winterbottom\source\repos\FlexitolMediPediCampaign\obj\Debug\Fl
 C:\Users\Matthew Winterbottom\source\repos\FlexitolMediPediCampaign\obj\Debug\FlexitolMediPediCampaign.csproj.CopyComplete
 C:\Users\Matthew Winterbottom\source\repos\FlexitolMediPediCampaign\obj\Debug\FlexitolMediPediCampaign.dll
 C:\Users\Matthew Winterbottom\source\repos\FlexitolMediPediCampaign\obj\Debug\FlexitolMediPediCampaign.pdb
+C:\Users\Matthew Winterbottom\source\repos\FlexitolMediPediCampaign\obj\Debug\FlexitolMediPediCampaign.csprojAssemblyReference.cache

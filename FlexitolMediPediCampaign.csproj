@@ -135,6 +135,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\back.png" />
     <Content Include="Content\images\back.svg" />
+    <Content Include="Content\images\facebook.png" />
     <Content Include="Content\images\facebook.svg" />
     <Content Include="Content\images\flexitol-hero-doctorpatient-v-2%402x.jpg" />
     <Content Include="Content\images\flexitol-hero-doctorpatient-v-2%402x.png" />
@@ -149,6 +150,8 @@
     <Content Include="Content\images\no-1-foot-skincare-badge.svg" />
     <Content Include="Content\images\salon-logo.svg" />
     <Content Include="Content\images\twitter-2.svg" />
+    <Content Include="Content\images\flowers_and_spa.png" />
+    <Content Include="Content\images\twitter.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -221,6 +224,7 @@
     <Content Include="Views\Partials\Navbar.cshtml" />
     <Content Include="Views\Partials\Foot.cshtml" />
     <Content Include="Views\Partials\Competition.cshtml" />
+    <Content Include="Views\Partials\form.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -33,7 +33,6 @@ textarea {
 .visit-flexitol-font {
     width: 202px;
     height: 26px;
-    font-family: OpenSans;
     font-size: 16px;
     font-weight: bold;
     font-style: normal;
@@ -123,7 +122,7 @@ textarea {
     color: #0499ff;
 }
 
-.second-row {
+.its-your-turn-row {
     margin-top: 15%;
 }
 
@@ -143,4 +142,40 @@ textarea {
 
 .skincare-badge {
     padding-top: 100px;
+}
+
+.spa-and-form-row {
+    margin-top: 30px;
+}
+
+.ten-medi-pedi-kits {
+    font-family: Oxygen;
+    font-size: 30px;
+    text-align: center;
+    color: #809293;
+    margin-top: 10px;
+}
+
+.rm {
+    margin-top: -20px;
+}
+
+.share-comp {
+    font-size: 18px;
+    color: #0499ff;
+    text-align: center;
+}
+
+.twitter-icon {
+    margin-left: 10px;
+}
+
+.form {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.terms-conditions-label {
+    font-size: 10px;
+    color: #809293;
 }
