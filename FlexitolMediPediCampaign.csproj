@@ -146,6 +146,7 @@
     <Content Include="Content\images\ig.svg" />
     <Content Include="Content\images\logo.svg" />
     <Content Include="Content\images\menu.svg" />
+    <Content Include="Content\images\no-1-foot-skincare-badge.svg" />
     <Content Include="Content\images\salon-logo.svg" />
     <Content Include="Content\images\twitter-2.svg" />
     <Content Include="favicon.ico" />
@@ -219,6 +220,7 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Partials\Navbar.cshtml" />
     <Content Include="Views\Partials\Foot.cshtml" />
+    <Content Include="Views\Partials\Competition.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

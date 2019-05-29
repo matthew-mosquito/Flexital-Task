@@ -85,13 +85,11 @@ textarea {
 }
 
 .salon-logo {
-    padding-top: 3%;
-    padding-left: 83%;
-    padding-right: 3%;
+    padding-top: 1%;
 }
 
 .introducing-medi-pedi {
-    padding-top: 17%;
+    padding-top: 350px;
     font-family: Oxygen;
     font-size: 50px;
     font-weight: normal;
@@ -99,7 +97,6 @@ textarea {
     font-stretch: normal;
     line-height: 1.2;
     letter-spacing: normal;
-    text-align: center;
     color: #809293;
 }
 
@@ -111,12 +108,10 @@ textarea {
     font-stretch: normal;
     line-height: 1.2;
     letter-spacing: normal;
-    text-align: center;
     color: #809293;
 }
 
 .first-step-towards {
-    height: 48px;
     font-family: OpenSans;
     font-size: 16px;
     font-weight: bold;
@@ -126,4 +121,26 @@ textarea {
     letter-spacing: 5px;
     text-align: center;
     color: #0499ff;
+}
+
+.second-row {
+    margin-top: 15%;
+}
+
+.its-your-turn {
+    width: 996px;
+    height: 112px;
+    font-family: Oxygen;
+    font-size: 44px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0499ff;
+}
+
+.skincare-badge {
+    padding-top: 100px;
 }
