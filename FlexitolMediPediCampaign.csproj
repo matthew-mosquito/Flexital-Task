@@ -136,10 +136,18 @@
     <Content Include="Content\images\back.png" />
     <Content Include="Content\images\back.svg" />
     <Content Include="Content\images\facebook.svg" />
+    <Content Include="Content\images\flexitol-hero-doctorpatient-v-2%402x.jpg" />
+    <Content Include="Content\images\flexitol-hero-doctorpatient-v-2%402x.png" />
+    <Content Include="Content\images\flexitol-hero-doctorpatient-v-2%403x.jpg" />
+    <Content Include="Content\images\flexitol-hero-doctorpatient-v-2%403x.png" />
+    <Content Include="Content\images\flexitol-hero-doctorpatient-v-2.jpg" />
+    <Content Include="Content\images\flexitol-hero-doctorpatient-v-2.png" />
     <Content Include="Content\images\ig.png" />
     <Content Include="Content\images\ig.svg" />
     <Content Include="Content\images\logo.svg" />
     <Content Include="Content\images\menu.svg" />
+    <Content Include="Content\images\no-1-foot-skincare-badge.svg" />
+    <Content Include="Content\images\salon-logo.svg" />
     <Content Include="Content\images\twitter-2.svg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -211,6 +219,8 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Partials\Navbar.cshtml" />
+    <Content Include="Views\Partials\Foot.cshtml" />
+    <Content Include="Views\Partials\Competition.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
