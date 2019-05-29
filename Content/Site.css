@@ -75,3 +75,18 @@ textarea {
     background-color: #809293;
 }
 
+.render-image-background {
+    background-image: url("images/flexitol-hero-doctorpatient-v-2@2x.png");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.salon-logo {
+    padding-top: 3%;
+    padding-left: 83%;
+    padding-right: 3%;
+}
+
