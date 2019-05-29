@@ -30,8 +30,33 @@ textarea {
     height: 77px;
 }
 
+.visit-flexitol-font {
+    width: 202px;
+    height: 26px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.69;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
 .visit-flexitol {
-    color: white;
+    margin-left: 170px;
+}
+
+.socials {
+    margin-right: 170px;
+}
+
+.social-item {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .Visit-Flexitolcouk:hover {
@@ -49,3 +74,4 @@ textarea {
 .navbar-bg {
     background-color: #809293;
 }
+

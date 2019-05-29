@@ -1,34 +1,48 @@
-﻿<nav class="navbar navbar-expand-md navbar-light navbar-bg">
-    <!-- Collapse Button for small devices-->
+﻿<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-bg">
+
+    <!-- Link to Flexitol Home-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav visit-flexitol">
+            <li class="nav-item active">
+                <a class="nav-link" href="https://www.flexitol.co.uk/">
+                    <span class="visit-flexitol-font"><i class="fas fa-chevron-left"></i> Visit Flexitol.co.uk</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Navbar Logo (center) -->
+    <div class="mx-auto">
+        <a class="" href="#">
+            <img src="~/Content/images/logo.svg" width="140" height="48" alt="Flexitol Logo">
+        </a>
+    </div>
+
+    <!-- Collapse Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span><img src="~/Content/images/menu.svg" alt="Alternate Text" /></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="https://www.flexitol.co.uk/"><span class="visit-flexitol">< Visit Flexitol.co.uk</span></a>
+    <!-- Social Media Links -->
+    <div class="collapse navbar-collapse flex-md-row-reverse" id="navbarSupportedContent">
+        <ul class="navbar-nav socials">
+            <li class="social-item">
+                <a href="#">
+                    <img src="~/Content/images/ig.png" alt="Instagram Icon" />
+                </a>
+            </li>
+            <li class="social-item">
+                <a href="#">
+                    <img src="~/Content/images/facebook.svg" alt="Facebook Icon" />
+                </a>
+            </li>
+            <li class="social-item">
+                <a href="#">
+                    <img src="~/Content/images/twitter-2.svg" alt="Twitter Icon" />
+                </a>
             </li>
         </ul>
     </div>
 
-
-    <div class="justify-content-center">
-        <img class="navbar-brand mx-auto" src="~/Content/images/logo.png" alt="Flexitol Logo" />
-    </div>
-
-
-    <div class="collapse navbar-collapse ml-auto flex-md-row-reverse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-            <li class="ml-md-3">
-                <img src="~/Content/images/ig.png" alt="Facebook Icon" />
-            </li>
-            <li class="ml-md-3">
-                <img src="~/Content/images/facebook.png" alt="Instagram Icon" />
-            </li>
-            <li class="ml-md-3">
-                <img src="~/Content/images/twitter.png" alt="Twitter Icon" />
-            </li>
-        </ul>
-    </div>
 </nav>
