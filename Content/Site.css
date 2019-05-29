@@ -90,3 +90,40 @@ textarea {
     padding-right: 3%;
 }
 
+.introducing-medi-pedi {
+    padding-top: 17%;
+    font-family: Oxygen;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #809293;
+}
+
+.introducing-medi-pedi1 {
+    font-family: Oxygen;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #809293;
+}
+
+.first-step-towards {
+    height: 48px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.69;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #0499ff;
+}
