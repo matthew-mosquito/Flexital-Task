@@ -186,3 +186,15 @@ textarea {
     border: none;
     padding: 10px 42px;
 }
+
+.forward {
+    background-image: url("/Content/images/forward.svg");
+}
+
+.backward {
+    background-image: url("/Content/images/back.svg");
+}
+
+.row-padding {
+    margin-top: 20px;
+}
