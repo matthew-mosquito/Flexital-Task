@@ -18,23 +18,18 @@ namespace FlexitolMediPediCampaign.Controllers
         [HttpPost]
         public ActionResult Index(formModel model)
         {
-            try
-            {
-                if (ModelState.IsValid)  
-                {
-                    FormServices customerDb = new FormServices();
-                    if (customerDb.Add_to_db(model))
-                        {
-                            ModelState.Clear();
-                        }
-                }
 
-                return View();
-            }
-            catch
+            if (ModelState.IsValid)
             {
-                return View();
+                FormServices customerDb = new FormServices();
+                if (customerDb.Add_to_db(model))
+                {
+                    ModelState.Clear();
+                }
             }
+
+            return View();
+
         }
 
         public ActionResult About()
