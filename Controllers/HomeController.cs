@@ -1,4 +1,5 @@
 ﻿using FlexitolMediPediCampaign.Models;
+using FlexitolMediPediCampaign.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,9 +18,23 @@ namespace FlexitolMediPediCampaign.Controllers
         [HttpPost]
         public ActionResult Index(formModel model)
         {
-            var testing = model;
+            try
+            {
+                if (ModelState.IsValid)  
+                {
+                    FormServices customerDb = new FormServices();
+                    if (customerDb.Add_to_db(model))
+                        {
+                            ModelState.Clear();
+                        }
+                }
 
-            return View();
+                return View();
+            }
+            catch
+            {
+                return View();
+            }
         }
 
         public ActionResult About()
