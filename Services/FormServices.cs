@@ -35,10 +35,8 @@ namespace FlexitolMediPediCampaign.Services
             cmd.Parameters.AddWithValue("@AddressLine1", model.AddressLine1);
             cmd.Parameters.AddWithValue("@AddressLine2", model.AddressLine2);
             cmd.Parameters.AddWithValue("@PostCode", model.postCode);
-
-            // Delete these last three once deleted towns and added checkboxes
-            cmd.Parameters.AddWithValue("@TermsAndConditions", true);
-            cmd.Parameters.AddWithValue("@SubscribeMailingList", false);
+            cmd.Parameters.AddWithValue("@TermsAndConditions", model.TermsAndConditions);
+            cmd.Parameters.AddWithValue("@SubscribeMailingList", model.Subscribe);
 
             con.Open();
             var i = cmd.ExecuteNonQuery();

@@ -230,6 +230,7 @@
     <Content Include="Views\Partials\Foot.cshtml" />
     <Content Include="Views\Partials\Competition.cshtml" />
     <Content Include="Views\Partials\Form.cshtml" />
+    <Content Include="Views\View.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
