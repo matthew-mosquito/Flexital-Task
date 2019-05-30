@@ -124,7 +124,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\formModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\FormServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
@@ -135,6 +137,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\back.png" />
     <Content Include="Content\images\back.svg" />
+    <Content Include="Content\images\facebook.png" />
     <Content Include="Content\images\facebook.svg" />
     <Content Include="Content\images\flexitol-hero-doctorpatient-v-2%402x.jpg" />
     <Content Include="Content\images\flexitol-hero-doctorpatient-v-2%402x.png" />
@@ -148,7 +151,10 @@
     <Content Include="Content\images\menu.svg" />
     <Content Include="Content\images\no-1-foot-skincare-badge.svg" />
     <Content Include="Content\images\salon-logo.svg" />
+    <Content Include="Content\images\tick.svg" />
     <Content Include="Content\images\twitter-2.svg" />
+    <Content Include="Content\images\flowers_and_spa.png" />
+    <Content Include="Content\images\twitter.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -195,7 +201,9 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -221,10 +229,11 @@
     <Content Include="Views\Partials\Navbar.cshtml" />
     <Content Include="Views\Partials\Foot.cshtml" />
     <Content Include="Views\Partials\Competition.cshtml" />
+    <Content Include="Views\Partials\Form.cshtml" />
+    <Content Include="Views\View.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

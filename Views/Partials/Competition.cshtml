@@ -1,7 +1,33 @@
 ﻿
-<div class="row second-row">
+<div class="row its-your-turn-row">
     <div class="col-md-12 text-center its-your-turn">
         <p>It's your turn to be pampered.</p>
         <p>Enter our competition to win a luxury spa day!</p>
+    </div>
+</div>
+
+<div class="row spa-and-form-row">
+    <div class="col-lg-1">
+
+    </div>
+
+    <div class="col-lg-5">
+        <img src="~/Content/images/flowers_and_spa.png" width="465" height="300" alt="Alternate Text" />
+        <p class="ten-medi-pedi-kits">+ 10 Flexitol Medi Pedi kits</p>
+        <p class="ten-medi-pedi-kits rm">also up for grabs!</p>
+        <p class="share-comp">
+            Share the competition
+            <img src="~/Content/images/twitter.png" class="twitter-icon" alt="Alternate Text" />
+            <img src="~/Content/images/facebook.png" alt="Alternate Text" />
+        </p>
+    </div>
+
+    <!-- form partial view -->
+    <div class="col-lg-5">
+        @Html.Partial("~/Views/Partials/Form.cshtml")
+    </div>
+
+    <div class="col-lg-1">
+
     </div>
 </div>
