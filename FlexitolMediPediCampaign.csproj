@@ -149,6 +149,7 @@
     <Content Include="Content\images\menu.svg" />
     <Content Include="Content\images\no-1-foot-skincare-badge.svg" />
     <Content Include="Content\images\salon-logo.svg" />
+    <Content Include="Content\images\tick.svg" />
     <Content Include="Content\images\twitter-2.svg" />
     <Content Include="Content\images\flowers_and_spa.png" />
     <Content Include="Content\images\twitter.png" />
