@@ -145,11 +145,16 @@
     <Content Include="Content\images\flexitol-hero-doctorpatient-v-2%403x.png" />
     <Content Include="Content\images\flexitol-hero-doctorpatient-v-2.jpg" />
     <Content Include="Content\images\flexitol-hero-doctorpatient-v-2.png" />
+    <Content Include="Content\images\forward.svg" />
     <Content Include="Content\images\ig.png" />
     <Content Include="Content\images\ig.svg" />
     <Content Include="Content\images\logo.svg" />
     <Content Include="Content\images\menu.svg" />
     <Content Include="Content\images\no-1-foot-skincare-badge.svg" />
+    <Content Include="Content\images\product-01.jpg" />
+    <Content Include="Content\images\product-02.jpg" />
+    <Content Include="Content\images\product-03.jpg" />
+    <Content Include="Content\images\right-carousel-cloud.jpg" />
     <Content Include="Content\images\salon-logo.svg" />
     <Content Include="Content\images\tick.svg" />
     <Content Include="Content\images\twitter-2.svg" />
@@ -230,7 +235,7 @@
     <Content Include="Views\Partials\Foot.cshtml" />
     <Content Include="Views\Partials\Competition.cshtml" />
     <Content Include="Views\Partials\Form.cshtml" />
-    <Content Include="Views\View.cshtml" />
+    <Content Include="Views\Carousel.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
