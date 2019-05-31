@@ -196,5 +196,34 @@ textarea {
 }
 
 .row-padding {
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.row-padding2 {
+    margin-top: 100px;
+}
+
+.doctors-img1 {
+    position: absolute;
+    left: 50px;
+}
+
+.doctors-img2 {
+    position: absolute;
+    left: 230px;
+}
+
+.testimony-text {
+    font-family: Oxygen;
+    font-size: 16px;
+    line-height: 1.53;
+    color: #809293;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+
+.testimony-speech-marks-img {
+    margin-right: 150px;
+    margin-left: -320px;
+    margin-top: 80px;
 }

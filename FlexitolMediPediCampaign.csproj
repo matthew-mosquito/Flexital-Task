@@ -154,8 +154,11 @@
     <Content Include="Content\images\product-01.jpg" />
     <Content Include="Content\images\product-02.jpg" />
     <Content Include="Content\images\product-03.jpg" />
+    <Content Include="Content\images\quote.svg" />
     <Content Include="Content\images\right-carousel-cloud.jpg" />
     <Content Include="Content\images\salon-logo.svg" />
+    <Content Include="Content\images\smiling-doctor-woman.jpg" />
+    <Content Include="Content\images\smiling-doctor-woman2.jpg" />
     <Content Include="Content\images\tick.svg" />
     <Content Include="Content\images\twitter-2.svg" />
     <Content Include="Content\images\flowers_and_spa.png" />
