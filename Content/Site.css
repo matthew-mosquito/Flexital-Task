@@ -196,5 +196,118 @@ textarea {
 }
 
 .row-padding {
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.row-padding2 {
+    margin-top: 100px;
+}
+
+.doctors-img1 {
+    position: absolute;
+    left: 50px;
+}
+
+.doctors-img2 {
+    position: absolute;
+    left: 230px;
+}
+
+.testimony-text {
+    font-family: Oxygen;
+    font-size: 16px;
+    line-height: 1.53;
+    color: #809293;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+
+.testimony-speech-marks-img {
+    margin-right: 150px;
+    margin-left: -320px;
+    margin-top: 80px;
+}
+
+.banner-5-bg {
+    background-image: url("images/hero-banner-foot-pointing-left.jpg");
+    height: 600px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-size: 1100px;
+}
+
+.the-new-pedicure {
+    width: 600px;
+    font-family: Oxygen;
+    font-size: 44px;
+    font-stretch: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    color: #0499ff;
+    margin-top: 200px;
+}
+
+.skincare-with-health {
+    width: 466px;
+    height: 48px;
+    font-family: Oxygen;
+    font-size: 18px;
+    color: #809293;
+}
+
+.learn-more {
+    border-radius: 24px;
+    background-color: #0499ff;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 27px 1px;
+    border: none;
+    padding: 10px 42px;
+}
+
+.blob-img{
+    margin-top: 170px;
+}
+
+.flexitol-reduces-wat {
+    width: 228px;
+    height: 133px;
+    font-family: Oxygen;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #809293;
+    margin-left: -80px;
+}
+
+.request-subtext {
+    width: 870px;
+    height: 108px;
+    font-family: Oxygen;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: center;
+    color: #809293;
+    margin-left: 60px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    background-color: #00557c;
+    color: white;
+    text-align: center;
 }
