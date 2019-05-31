@@ -243,6 +243,7 @@
     <Content Include="Views\Partials\Testimony.cshtml" />
     <Content Include="Views\Partials\Pedicure.cshtml" />
     <Content Include="Views\Partials\Carousel2.cshtml" />
+    <Content Include="Views\Partials\RequestPack.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
