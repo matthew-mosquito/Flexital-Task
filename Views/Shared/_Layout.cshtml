@@ -13,14 +13,13 @@
 <body>
     @Html.Partial("~/Views/Partials/Navbar.cshtml")
 
-    <div class="render-image-background">
-        <div class="container">
-            @RenderBody()
-        </div>
-    </div>
 
-        @Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/bootstrap")
-        @RenderSection("scripts", required: false)
+
+    @RenderBody()
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
 </body>
 </html>

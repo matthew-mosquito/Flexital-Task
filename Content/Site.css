@@ -227,3 +227,43 @@ textarea {
     margin-left: -320px;
     margin-top: 80px;
 }
+
+.banner-5-bg {
+    background-image: url("images/hero-banner-foot-pointing-left.jpg");
+    height: 600px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-size: 1300px;
+}
+
+.the-new-pedicure {
+    width: 600px;
+    font-family: Oxygen;
+    font-size: 44px;
+    font-stretch: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    color: #0499ff;
+    margin-top: 200px;
+}
+
+.skincare-with-health {
+    width: 466px;
+    height: 48px;
+    font-family: Oxygen;
+    font-size: 18px;
+    color: #809293;
+}
+
+.learn-more {
+    border-radius: 24px;
+    background-color: #0499ff;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 27px 1px;
+    border: none;
+    padding: 10px 42px;
+}
