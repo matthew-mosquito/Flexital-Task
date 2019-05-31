@@ -235,7 +235,7 @@ textarea {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-size: 1300px;
+    background-size: 1100px;
 }
 
 .the-new-pedicure {
@@ -266,4 +266,23 @@ textarea {
     margin: 27px 1px;
     border: none;
     padding: 10px 42px;
+}
+
+.blob-img{
+    margin-top: 170px;
+}
+
+.flexitol-reduces-wat {
+    width: 228px;
+    height: 133px;
+    font-family: Oxygen;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #809293;
+    margin-left: -80px;
 }
