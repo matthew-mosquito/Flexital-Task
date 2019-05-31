@@ -51,7 +51,7 @@ textarea {
 }
 
 .social-item {
-    margin: 5px, 10px, 5px, 10px;
+    margin-right: 10px;
 }
 
 .Visit-Flexitolcouk:hover {
@@ -72,7 +72,6 @@ textarea {
 
 .render-image-background {
     background-image: url("images/flexitol-hero-doctorpatient-v-2@2x.png");
-    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,12 +79,12 @@ textarea {
 }
 
 .salon-logo {
-    padding-top: 1%;
+    margin-top: 1%;
+    margin-right: 3%;
 }
 
 .introducing-medi-pedi {
-    padding-top: 350px;
-    font-family: Oxygen;
+    margin-top: 80%;
     font-size: 50px;
     font-weight: normal;
     font-style: normal;
@@ -119,7 +118,7 @@ textarea {
 }
 
 .its-your-turn-row {
-    margin-top: 15%;
+    margin-top: 7%;
 }
 
 .its-your-turn {
@@ -136,8 +135,25 @@ textarea {
     color: #0499ff;
 }
 
+.request-subtext {
+    width: 100px;
+    height: 112px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: center;
+    color: #809293;
+}
+
 .skincare-badge {
     padding-top: 100px;
+}
+
+.woman-spa-img {
+    margin-left: 20%
 }
 
 .spa-and-form-row {
@@ -235,7 +251,7 @@ textarea {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-size: 1100px;
+    background-size: 60%;
 }
 
 .the-new-pedicure {
@@ -285,21 +301,6 @@ textarea {
     text-align: center;
     color: #809293;
     margin-left: -80px;
-}
-
-.request-subtext {
-    width: 870px;
-    height: 108px;
-    font-family: Oxygen;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.56;
-    letter-spacing: normal;
-    text-align: center;
-    color: #809293;
-    margin-left: 60px;
 }
 
 .footer {

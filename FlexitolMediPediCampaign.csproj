@@ -150,6 +150,7 @@
     <Content Include="Content\images\hero-banner-foot-pointing-left.jpg" />
     <Content Include="Content\images\ig.png" />
     <Content Include="Content\images\ig.svg" />
+    <Content Include="Content\images\linkedInIcon.svg" />
     <Content Include="Content\images\logo.svg" />
     <Content Include="Content\images\menu.svg" />
     <Content Include="Content\images\no-1-foot-skincare-badge.svg" />
@@ -165,6 +166,7 @@
     <Content Include="Content\images\twitter-2.svg" />
     <Content Include="Content\images\flowers_and_spa.png" />
     <Content Include="Content\images\twitter.png" />
+    <Content Include="Content\images\youtubeIcon.svg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -244,6 +246,9 @@
     <Content Include="Views\Partials\Pedicure.cshtml" />
     <Content Include="Views\Partials\Carousel2.cshtml" />
     <Content Include="Views\Partials\RequestPack.cshtml" />
+    <Content Include="Views\Home\ThankYou.cshtml" />
+    <Content Include="Views\Partials\FootThanks.cshtml" />
+    <Content Include="Views\Partials\Footer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -13,44 +13,9 @@
 <body>
     @Html.Partial("~/Views/Partials/Navbar.cshtml")
 
-
-
     @RenderBody()
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 footer-col-1">
-                    <p class="Keep-your-feet-happy">Keep your feet happy</p>
-                    <p class="Sign-up-to-receive">Sign up to receive the latest flexitol news</p>
-                    <input class="form-control" type="email" name="enter-email" placeholder="Please enter your email address" />
-                </div>
-                <div class="col-md-4 footer-col-1">
-                    <p class="Keep-your-feet-happy">Stockists</p>
-                    <p class="Sign-up-to-receive">Find out where to buy the Flexitol product range</p>
-                    <a class="Read-more" href="#">Read more</a>
-                </div>
-                <div class="col-md-4"></div>
-            </div>
-        </div>
-    </footer>
-    
-    <footer class="footer2">
-        <div class="row">
-            <div class="col-md-12" style="margin-top: 10px;">
-                <a href="#"><img src="~/Content/images/youtubeIcon.svg" alt="YouTube icon" /></a>
-                <a style="margin-left: 10px;" href="#"><img src="~/Content/images/linkedInIcon.svg" alt="LinkedIn icon" /></a>
-                <a href="#"><span class="btm-link">About flexitol</span></a>
-                <a href="#"><span class="btm-link">Contact Us</span></a>
-                <a href="#"><span class="btm-link">Terms and Conditions</span></a>
-                <a href="#"><span class="btm-link">Private Policy</span></a>
-                <a href="#"><span class="btm-link">IDOT</span></a>
-                <a href="#"><span class="btm-link">NHS Choices</span></a>
-                <a href="#"><span class="btm-link">The College of Podiatry</span></a>
-            </div>
-        </div>
-    </footer>
-
+    @Html.Partial("~/Views/Partials/Footer.cshtml")
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")

@@ -31,6 +31,12 @@ namespace FlexitolMediPediCampaign.Controllers
             return View();
 
         }
+        public ActionResult ThankYou()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
 
         public ActionResult About()
         {
