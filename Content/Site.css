@@ -212,17 +212,13 @@ textarea {
 }
 
 .row-padding {
-    margin-top: 40px;
+    margin-top: 10%;
 }
 
 .row-padding2 {
     margin-top: 100px;
 }
 
-.doctors-img1 {
-    position: absolute;
-    left: 50px;
-}
 
 .doctors-img2 {
     position: absolute;
@@ -230,12 +226,10 @@ textarea {
 }
 
 .testimony-text {
-    font-family: Oxygen;
-    font-size: 16px;
+    width: 85%;
+    font-size: 30px;
     line-height: 1.53;
     color: #809293;
-    margin-top: 150px;
-    margin-left: 120px;
 }
 
 .testimony-speech-marks-img {
@@ -254,19 +248,21 @@ textarea {
     background-size: 60%;
 }
 
+.smiling-doctor-woman {
+    height: 80%;
+}
+
 .the-new-pedicure {
-    width: 600px;
     font-family: Oxygen;
     font-size: 44px;
     font-stretch: normal;
     line-height: 1.23;
     letter-spacing: normal;
     color: #0499ff;
-    margin-top: 200px;
+    margin-top: 20%;
 }
 
 .skincare-with-health {
-    width: 466px;
     height: 48px;
     font-family: Oxygen;
     font-size: 18px;
@@ -285,7 +281,8 @@ textarea {
 }
 
 .blob-img{
-    margin-top: 170px;
+    margin-top: 40%;
+    margin-left: 12%;
 }
 
 .flexitol-reduces-wat {
