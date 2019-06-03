@@ -189,8 +189,6 @@ textarea {
     border-radius: 24px;
     background-color: #0499ff;
     color: #ffffff;
-    text-decoration: none;
-    display: inline-block;
     margin: 4px 2px;
     border: none;
     padding: 10px 42px;
@@ -232,14 +230,13 @@ textarea {
     margin-top: 80px;
 }
 
-.pedicture-bg {
-    background-image: url("images/hero-banner-foot-pointing-left.jpg");
+.pedicure-bg {
+    background-image: url("images/pedicure-bg.jpg");
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-size: 60%;
-    padding-bottom: 10%;
+    padding-bottom: 32%;
     margin-bottom: 5%;
 }
 
@@ -247,18 +244,13 @@ textarea {
     height: 80%;
 }
 
+
 .the-new-pedicure {
     font-size: 44px;
-    font-stretch: normal;
-    line-height: 1.23;
-    letter-spacing: normal;
     color: #0499ff;
-    margin-top: 20%;
 }
 
 .skincare-with-health {
-    height: 48px;
-    font-family: Oxygen;
     font-size: 18px;
     color: #809293;
 }
@@ -275,18 +267,15 @@ textarea {
 }
 
 .flexitol-reduces-wat {
-    width: 228px;
-    height: 133px;
-    font-family: Oxygen;
     font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.5;
-    letter-spacing: normal;
-    text-align: center;
     color: #809293;
-    margin-left: -80px;
+}
+
+.the-new-ped-cont {
+    margin-left: 40%;
+    margin-top: 17%;
+    width: 50%;
 }
 
 .footer {
@@ -367,4 +356,8 @@ textarea {
     font-size: 44px;
     text-align: center;
     color: #0499ff;
+}
+.blob {
+    margin-top: 30%;
+    margin-left: 10%;
 }
