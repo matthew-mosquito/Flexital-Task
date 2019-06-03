@@ -25,9 +25,9 @@ namespace FlexitolMediPediCampaign.Controllers
                 if (customerDb.Add_to_db(model))
                 {
                     ModelState.Clear();
+                    return View("ThankYou");
                 }
             }
-
             return View();
 
         }
