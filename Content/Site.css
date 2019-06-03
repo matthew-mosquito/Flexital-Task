@@ -71,8 +71,10 @@ textarea {
 }
 
 .render-image-background {
-    background-image: url("images/flexitol-hero-doctorpatient-v-2@2x.png");
-    background-position: center;
+    background-image: url("images/flexitol-hero-doctorpatient-v-2.png");
+    background-color: #cccccc;
+    height: 900px;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -84,14 +86,11 @@ textarea {
 }
 
 .introducing-medi-pedi {
-    margin-top: 80%;
     font-size: 50px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.2;
     letter-spacing: normal;
     color: #809293;
+    text-align: center;
 }
 
 .introducing-medi-pedi1 {
@@ -121,29 +120,23 @@ textarea {
     margin-top: 7%;
 }
 
+.flexitol-medi-p {
+    font-size: 30px;
+    line-height: 1.4;
+    text-align: center;
+    color: #809293;
+}
+
 .its-your-turn {
-    width: 996px;
-    height: 112px;
-    font-family: Oxygen;
     font-size: 44px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.23;
-    letter-spacing: normal;
     text-align: center;
     color: #0499ff;
 }
 
 .request-subtext {
-    width: 100px;
-    height: 112px;
     font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.23;
-    letter-spacing: normal;
     text-align: center;
     color: #809293;
 }
@@ -230,6 +223,7 @@ textarea {
     font-size: 30px;
     line-height: 1.53;
     color: #809293;
+    text-align: center;
 }
 
 .testimony-speech-marks-img {
@@ -238,14 +232,15 @@ textarea {
     margin-top: 80px;
 }
 
-.banner-5-bg {
+.pedicture-bg {
     background-image: url("images/hero-banner-foot-pointing-left.jpg");
-    height: 600px;
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     background-size: 60%;
+    padding-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .smiling-doctor-woman {
@@ -253,7 +248,6 @@ textarea {
 }
 
 .the-new-pedicure {
-    font-family: Oxygen;
     font-size: 44px;
     font-stretch: normal;
     line-height: 1.23;
@@ -278,11 +272,6 @@ textarea {
     margin: 27px 1px;
     border: none;
     padding: 10px 42px;
-}
-
-.blob-img{
-    margin-top: 40%;
-    margin-left: 12%;
 }
 
 .flexitol-reduces-wat {
@@ -372,4 +361,10 @@ textarea {
     margin-left: 15px;
     font-size: 10px;
     color: white;
+}
+
+.request-pack-title {
+    font-size: 44px;
+    text-align: center;
+    color: #0499ff;
 }
