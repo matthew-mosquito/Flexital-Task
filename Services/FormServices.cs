@@ -44,10 +44,6 @@ namespace FlexitolMediPediCampaign.Services
 
             return true;
             
-            //if (i >= 1)
-            //   return true;
-            //else
-            //   return false;
         }
     }
 }
