@@ -135,9 +135,12 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Carousel.css" />
     <Content Include="Content\images\back.png" />
     <Content Include="Content\images\back.svg" />
     <Content Include="Content\images\blob.jpg" />
+    <Content Include="Content\images\both-testimony-models-1.JPG" />
+    <Content Include="Content\images\competition-flowers.png" />
     <Content Include="Content\images\facebook.png" />
     <Content Include="Content\images\facebook.svg" />
     <Content Include="Content\images\flexitol-hero-doctorpatient-v-2%402x.jpg" />
@@ -150,6 +153,7 @@
     <Content Include="Content\images\hero-banner-foot-pointing-left.jpg" />
     <Content Include="Content\images\ig.png" />
     <Content Include="Content\images\ig.svg" />
+    <Content Include="Content\images\left-cloud.jpg" />
     <Content Include="Content\images\linkedInIcon.svg" />
     <Content Include="Content\images\logo.svg" />
     <Content Include="Content\images\menu.svg" />
@@ -159,6 +163,7 @@
     <Content Include="Content\images\product-03.jpg" />
     <Content Include="Content\images\quote.svg" />
     <Content Include="Content\images\right-carousel-cloud.jpg" />
+    <Content Include="Content\images\right-cloud.jpg" />
     <Content Include="Content\images\salon-logo.svg" />
     <Content Include="Content\images\smiling-doctor-woman.jpg" />
     <Content Include="Content\images\smiling-doctor-woman2.jpg" />

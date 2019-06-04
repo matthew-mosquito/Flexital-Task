@@ -1,0 +1,13 @@
+﻿/* external css: flickity.css */
+
+* {
+    box-sizing: border-box;
+}
+
+.carousel-cell.is-selected {
+     background: #ED2;
+}
+
+.carousel-cell {
+    width: 100%;
+}
