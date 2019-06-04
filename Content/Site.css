@@ -400,3 +400,12 @@ body {
 .right-cloud {
     margin-top: -50%;
 }
+
+.carousel-cell {
+    margin-right: 10px;
+    counter-increment: carousel-cell;
+}
+
+.carousel-quote {
+    width: 100%;
+}
