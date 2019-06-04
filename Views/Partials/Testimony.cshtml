@@ -1,40 +1,80 @@
-﻿
-@*
-<div class="container">
-    <div class="row mt-5">
-        <div class="col-md-6 mt-5">
-            <img src="~/Content/images/quote.svg" alt="Alternate Text" />
-            <p class="testimony-text">I fell in love with Flexitol the first time I used it, the Flexitol Medi Pedi results speak for themselves!</p>
-            <p class="testimony-text">Jane | Salon Owner</p>
-        </div>
+﻿@*
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6 mt-5">
+                <div class="main-carousel" data-flickity='{ "wrapAround": false, "cellAlign": "center", "prevNextButtons": false, "pageDots": true}'>
+                    <div class="carousel-cell carousel-quote">
+                        <img src="~/Content/images/quote.svg" alt="Alternate Text" />
+                        <p class="testimony-text">I fell in love with Flexitol the first time I used it, the Flexitol Medi Pedi results speak for themselves!</p>
+                        <p class="testimony-text">Jane | Salon Owner</p>
+                    </div>
+                    <div class="carousel-cell carousel-quote">
+                        <img src="~/Content/images/quote.svg" alt="Alternate Text" />
+                        <p class="testimony-text">Flexitol Heel Balm has changed the way I care for my feet, I now feel my feet are a great asset</p>
+                        <p class="testimony-text">Wendy | Salon Customer</p>
+                    </div>
+                </div>
+            </div>
 
-        <div class="col-md-6">
-            <img src="~/Content/images/both-testimony-models-1.jpg" class="smiling-doctor-woman img-fluid mx-auto d-block" alt="Alternate Text" />
+            <div class="col-md-6 mt-5">
+                <img src="~/Content/images/both-testimony-models-1.JPG" class="img-fluid" alt="Alternate Text" />
+            </div>
         </div>
     </div>
-</div>
 *@
 
-<div class="container">
-    <div class="row mt-5">
-        <div class="col-md-6 mt-5">
-            <div class="main-carousel" data-flickity='{ "wrapAround": false, "cellAlign": "center", "prevNextButtons": false, "pageDots": true}'>
-                <div class="carousel-cell carousel-quote">
-                    <img src="~/Content/images/quote.svg" alt="Alternate Text" />
-                    <p class="testimony-text">I fell in love with Flexitol the first time I used it, the Flexitol Medi Pedi results speak for themselves!</p>
-                    <p class="testimony-text">Jane | Salon Owner</p>
+@*
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <!-- carousel -->
+                <div class="gallery js-flickity">
+                    <div class="gallery-cell">
+                        <img src="~/Content/images/quote.svg" alt="Alternate Text" />
+                        <p class="testimony-text">Flexitol Heel Balm has changed the way I care for my feet, I now feel my feet are a great asset</p>
+                        <p class="testimony-subtext">Wendy | Salon Customer</p>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="~/Content/images/quote.svg" alt="Alternate Text" />
+                        <p class="testimony-text">Flexitol Heel Balm has changed the way I care for my feet, I now feel my feet are a great asset</p>
+                        <p class="testimony-subtext">Wendy | Salon Customer</p>
+                    </div>
                 </div>
-                <div class="carousel-cell carousel-quote">
-                    <img src="~/Content/images/quote.svg" alt="Alternate Text" />
-                    <p class="testimony-text">Flexitol Heel Balm has changed the way I care for my feet, I now feel my feet are a great asset</p>
-                    <p class="testimony-text">Wendy | Salon Customer</p>
+            </div>
+
+            <div class="col-md-6">
+                <!-- button -->
+                <div class="button-group">
+
+                    <button class="button-image">
+                        <img src="~/Content/images/smiling-doctor-woman.jpg" />
+                    </button>
+
+                    <button class="button-image">
+                        <img src="~/Content/images/smiling-doctor-woman2.jpg" />
+                    </button>
+
                 </div>
             </div>
 
         </div>
-
-        <div class="col-md-6 mt-5">
-            <img src="~/Content/images/both-testimony-models-1.JPG" class="img-fluid" alt="Alternate Text" />
-        </div>
     </div>
+*@
+
+<div class="button-group">
+    <button class="button">1</button>
+    <button class="button">2</button>
+    <button class="button">3</button>
+    <button class="button">4</button>
+    <button class="button">5</button>
+</div>
+
+<div class="carousel">
+    <div class="carousel-cell1"></div>
+    <div class="carousel-cell1"></div>
+    <div class="carousel-cell1"></div>
+    <div class="carousel-cell1"></div>
+    <div class="carousel-cell1"></div>
 </div>

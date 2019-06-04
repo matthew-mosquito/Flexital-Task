@@ -27,28 +27,30 @@
 </div>
 *@
 
-<div class="container">
-    <div class="row mt-5">
-        <div class="col-md-12">
-            <p class="its-your-turn">
-                It's your turn to be pampered. Enter our competition to win a luxury spa day!
-            </p>
+<div class="container-fluid competition-flowers-background">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <p class="its-your-turn">
+                    It's your turn to be pampered. Enter our competition to win a luxury spa day!
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div class="row">
-        <div class="col-md-6">
-            <img src="~/Content/images/flowers_and_spa.png" class="img-fluid" alt="spa and flowers" />
-            <p class="flexitol-medi-p">+ 10 Flexitol Medi Pedi kits also up for grabs! </p>
-            <p class="share-comp">
-                Share the competition
-                <a href="#"><img src="~/Content/images/twitter.png" alt="Alternate Text" /></a>
-                <a href="#"><img src="~/Content/images/facebook.png" alt="Alternate Text" /></a>
-            </p>
-            
-        </div>
-        <div class="col-md-6">
-            @Html.Partial("~/Views/Partials/Form.cshtml")
+        <div class="row">
+            <div class="col-md-6">
+                <img src="~/Content/images/flowers_and_spa.png" class="img-fluid" alt="spa and flowers" />
+                <p class="flexitol-medi-p">+ 10 Flexitol Medi Pedi kits also up for grabs! </p>
+                <p class="share-comp">
+                    Share the competition
+                    <a href="#"><img src="~/Content/images/twitter.png" alt="Alternate Text" /></a>
+                    <a href="#"><img src="~/Content/images/facebook.png" alt="Alternate Text" /></a>
+                </p>
+
+            </div>
+            <div class="col-md-6">
+                @Html.Partial("~/Views/Partials/Form.cshtml")
+            </div>
         </div>
     </div>
 </div>
