@@ -6,7 +6,8 @@ $('.carousel').flickity({
     // options
     cellAlign: 'left',
     contain: true,
-    prevNextButtons: false
+    prevNextButtons: false,
+    draggable: false
 });
 
 // Allow buttons to change the carousel
@@ -56,4 +57,42 @@ function frontImageGreyOther( e ) {
     }
 };
 
-// function
+
+// grab the two dots of the quote carousel
+const dots = document.querySelectorAll(".dot");
+
+// add event listeners to both of them
+// invoke function to change images if dot is clicked.
+for (const dot of dots) {
+    dot.addEventListener('click', changeImageFromDot);
+};
+
+
+
+function changeImageFromDot(e) {
+
+    // grab the the two images in separate variables
+    const firstMedicalWoman = document.getElementById("first");
+    const secondMedicalWoman = document.getElementById("second");
+
+    // remove previous class attributes so they don't add up each time somebody clicks
+    firstMedicalWoman.classList.remove("img-selected");
+    firstMedicalWoman.classList.remove("img-unselected");
+
+    secondMedicalWoman.classList.remove("img-selected");
+    secondMedicalWoman.classList.remove("img-unselected");
+
+    // if it's the first dot, add styling to first image, remove from second
+    if (this.getAttribute("aria-label") == "Page dot 1") {
+
+        firstMedicalWoman.classList.add("img-selected");
+        secondMedicalWoman.classList.add("img-unselected");
+    };
+
+    // if it's the second dot, add styling to second image, remove from first
+    if (this.getAttribute("aria-label") == "Page dot 2") {
+
+        secondMedicalWoman.classList.add("img-selected");
+        firstMedicalWoman.classList.add("img-unselected");
+    };
+};

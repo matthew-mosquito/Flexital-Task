@@ -437,6 +437,22 @@ body {
         color: white;
     }
 
+    .carousel-cell1.is-selected {
+        opacity: 1;
+        z-index: 0
+    }
+
+.flickity-slider {
+    transform: none !important;
+}
+
+.carousel-cell1 {
+    left: 0 !important;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: -1;
+}
+
 .button {
     font-size: 22px;
     padding-right: -10%;
