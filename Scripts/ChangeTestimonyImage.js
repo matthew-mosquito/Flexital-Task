@@ -34,10 +34,6 @@ for (const image of medicalWomanImages) {
 
 function frontImageGreyOther( e ) {
 
-    console.log("testing");
-    console.log(e.target.id);
-
-
     const medicalWomanImages = document.querySelectorAll(".medical-woman");
 
     for (const image of medicalWomanImages) {

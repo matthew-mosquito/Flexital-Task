@@ -417,8 +417,6 @@ body {
     box-sizing: border-box;
 }
 
-.carousel {
-}
 
 .carousel-cell1 {
     width: 100%;
@@ -482,3 +480,4 @@ body {
     z-index: 1;
     filter: grayscale(100%);
 }
+
