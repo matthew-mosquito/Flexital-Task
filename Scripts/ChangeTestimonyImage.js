@@ -32,7 +32,7 @@ for (const image of medicalWomanImages) {
 // Function to shift stack of clicked image to front
 // Then greyscale the other image to 100%
 
-function frontImageGreyOther( e ) {
+function frontImageGreyOther(e) {
 
     const medicalWomanImages = document.querySelectorAll(".medical-woman");
 

@@ -1,0 +1,34 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.product-carousel {
+    background: #EEE;
+}
+
+.product-carousel-cell {
+    width: 28%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: product-carousel-cell;
+}
+
+    .product-carousel-cell.is-selected {
+        background: #ED2;
+    }
+
+    /* cell number */
+    .product-carousel-cell:before {
+        display: block;
+        text-align: center;
+        content: counter(product-carousel-cell);
+        line-height: 200px;
+        font-size: 80px;
+        color: white;
+    }

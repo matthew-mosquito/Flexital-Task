@@ -1,0 +1,55 @@
+﻿/* carousel */
+* {
+    box-sizing: border-box;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.carousel-cell1 {
+    width: 100%;
+    margin-right: 10px;
+}
+
+    /* cell number */
+    .carousel-cell1:before {
+        display: block;
+    }
+
+
+.button {
+    font-size: 22px;
+    padding-right: -10%;
+}
+
+.button-group {
+    margin-bottom: 20px;
+}
+
+.medium-first-stack-image {
+    width: 200px;
+    position: relative;
+}
+
+.medium-second-stack-image {
+    width: 270px;
+    position: relative;
+    margin-left: -80px;
+    margin-bottom: 9px;
+}
+
+.img-selected {
+    z-index: 2;
+}
+
+.img-unselected {
+    z-index: 1;
+    filter: grayscale(100%);
+}
