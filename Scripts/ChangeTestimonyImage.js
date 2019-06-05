@@ -1,14 +1,15 @@
-﻿var flkty = new Flickity('.carousel');
+﻿// external js: flickity.pkgd.js
 
-var buttonGroup = document.querySelector('.button-group');
-var buttons = buttonGroup.querySelectorAll('.button');
-buttons = fizzyUIUtils.makeArray(buttons);
+$('.carousel').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    prevNextButtons: false
+});
 
-buttonGroup.addEventListener('click', function (event) {
-    // filter for button clicks
-    if (!matchesSelector(event.target, '.button')) {
-        return;
-    }
-    var index = buttons.indexOf(event.target);
-    flkty.select(index);
+var $carousel = $('.carousel').flickity();
+
+$('.button-group').on('click', '.button', function () {
+    var index = $(this).index();
+    $carousel.flickity('select', index);
 });
