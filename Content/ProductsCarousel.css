@@ -10,17 +10,38 @@
 
 
 .flickity-prev-next-button.previous {
-    left: 680px;
+    left: 670px;
 }
 
 .flickity-prev-next-button.next {
-    right: 680px;
+    right: 670px;
 }
 
 .flickity-prev-next-button {
     top: 250px;
 }
 
+.flickity-prev-next-button {
+    background: transparent;
+    height: 60px;
+    width: 60px;
+}
+
+    .flickity-prev-next-button:hover {
+        background: transparent;
+    }
+    /* arrow color */
+    .flickity-prev-next-button .arrow {
+        fill: #d8d8d8;
+    }
+
+    .flickity-prev-next-button.no-svg {
+        color: white;
+    }
+    /* hide disabled button */
+    .flickity-prev-next-button:disabled {
+        display: none;
+    }
 
 /* external css: flickity.css */
 
