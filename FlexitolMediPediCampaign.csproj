@@ -129,6 +129,7 @@
     <Compile Include="Services\FormServices.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\ProductsCarousel.css" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -172,6 +173,7 @@
     <Content Include="Content\images\flowers_and_spa.png" />
     <Content Include="Content\images\twitter.png" />
     <Content Include="Content\images\youtubeIcon.svg" />
+    <Content Include="Content\TestimonyCarousel.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -215,6 +217,7 @@
     <Content Include="Scripts\popper-utils.min.js" />
     <Content Include="Scripts\popper.js" />
     <Content Include="Scripts\popper.min.js" />
+    <Content Include="Scripts\ProductCarousel.js" />
     <Content Include="Scripts\umd\popper-utils.js" />
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
