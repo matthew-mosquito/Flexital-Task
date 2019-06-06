@@ -1,54 +1,66 @@
-﻿var flkty = new Flickity('.product-carousel', {
-    imagesLoaded: true,
-    percentPosition: false,
-    pageDots: false,
-    wrapAround: true
-});
+﻿// Get Entire carousel for event listener
 
-// Add an event listener for somebody click on the carousel, then get the product-carousel-cell
-// which has the is-selected class attribute added to it. Append items in if not already there.
-// Try to remove from the previous and post item using Ids.
+const carousel = document.querySelector(".product-carousel");
 
-// Call function to add caption on load
+// Get all the products for testing presence of is-selected class attribute
 
-window.onload = addCaption;
+const allProducts = document.querySelectorAll(".product-carousel-cell");
 
-// Grab the carousel
-var productCells = document.querySelectorAll(".product-carousel");
+// Add event listener to fire off function for changing opacity
+// if anywhere on the entire carousel is clicked
 
-// Add event listeners
+carousel.addEventListener("click", addAndRemoveCaptions);
 
-for (var cell of productCells) {
-    cell.addEventListener('click', addCaption);
-}
+// invoke function when page loads
+window.onload = addAndRemoveCaptions;
 
-// function to add caption
+// function to addAndRemoveCaptions
 
-function addCaption( event ) {
-    console.log("testing product-cell click");
+function addAndRemoveCaptions( event ) {
 
-    // Get the selected item
-    selectedCell = document.querySelector(".is-selected");
+    // Loop through each product
+    for (const product of allProducts) {
 
-    if (selectedCell.childNodes.length > 3) {
-        return;
-    };
+        // get the child div node of the product cell
+        var captionDiv = product.getElementsByTagName("DIV")[0];
 
-    if (selectedCell.id == "product-02") {
-        selectedCell.innerHTML += '<h1>Moisturising Foot Foam</h1>';
-        selectedCell.innerHTML += '<p>Fast acting and intensive treatment for very rough or dry skin</p>';
-        selectedCell.innerHTML += '<a href="#" class="submit-btn btn" role="button">Learn more</a>';
-    }
+        var image = product.getElementsByTagName("IMG")[0];
 
-    else if (selectedCell.id == "product-03") {
-        selectedCell.innerHTML += '<h1> Moisturising Foot Cream</h1>';
-        selectedCell.innerHTML += '<p>Enriched with Vitamin E, and Contains 10% Urea, in a richand highly concentrated base, to soften and hydrate very dry skin</p>';
-        selectedCell.innerHTML += '<a href="#" class="submit-btn btn" role="button">Learn more</a>';
-    }
-    else {
-        selectedCell.innerHTML += '<h1>Flexitol Heel Balm</h1>';
-        selectedCell.innerHTML += '<p>Highly effective medically proven skin nourishing treatment for dry and cracked feet, visible results in just one day</p>';
-        selectedCell.innerHTML += '<a href="#" class="submit-btn btn" role="button">Learn more</a>';
+        // test if it has the is-selected class
+        if (product.classList.contains("is-selected")) {
+
+            // remove previously added 'opacity on' class to avoid them stacking up
+            captionDiv.classList.remove("op-1");
+            // remove 'opacity off' class
+            captionDiv.classList.remove("op-0");
+            // add "opacity on" class
+            captionDiv.classList.add("op-1");
+
+            //Change image size
+            //remove width-100 class
+            image.classList.remove("w-100");
+            //remove width-90 class
+            image.classList.remove("w-90");
+            //add width 100 class
+            image.classList.add("w-100");
+        }
+
+        else {
+
+            // remove previously added "opacity off" class
+            captionDiv.classList.remove("op-0");
+            // remove 'opacity on' class
+            captionDiv.classList.remove("op-1");
+            // add "opacity off" class
+            captionDiv.classList.add("op-0")
+
+            //Change image size
+            //remove width-90 class
+            image.classList.remove("w-90");
+            //remove width-100 class
+            image.classList.remove("w-100");
+            //add width 90 class
+            image.classList.add("w-90");
+        }
     };
 };
-

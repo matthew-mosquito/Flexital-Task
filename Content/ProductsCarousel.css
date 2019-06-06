@@ -8,9 +8,35 @@
     counter-increment: product-carousel-cell;
 }
 
-.product-image-sizing {
-    width: 90%;
+
+.flickity-prev-next-button.previous {
+    left: 680px;
 }
 
-.caption {
+.flickity-prev-next-button.next {
+    right: 680px;
+}
+
+.flickity-prev-next-button {
+    top: 250px;
+}
+
+
+/* external css: flickity.css */
+
+
+.op-0 {
+    opacity: 0;
+}
+
+.op-1 {
+    opacity: 1;
+}
+
+.w-90 {
+    width: 80%;
+}
+
+.width-100 {
+    width: 110%;
 }

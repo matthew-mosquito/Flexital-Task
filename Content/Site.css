@@ -43,6 +43,18 @@
     margin-bottom: 24%;
 }
 
+.mb-26 {
+    margin-bottom: 26%;
+}
+
+.mb-28 {
+    margin-bottom: 28%;
+}
+
+.mb-30 {
+    margin-bottom: 30%;
+}
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
