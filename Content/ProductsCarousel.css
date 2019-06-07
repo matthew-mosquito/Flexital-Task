@@ -7,11 +7,11 @@
 
 
 .flickity-prev-next-button.previous {
-    left: 670px;
+    left: 36%;
 }
 
 .flickity-prev-next-button.next {
-    right: 670px;
+    right: 34%;
 }
 
 .flickity-prev-next-button {
@@ -32,14 +32,6 @@
         fill: #d8d8d8;
     }
 
-    .flickity-prev-next-button.no-svg {
-        color: white;
-    }
-    /* hide disabled button */
-    .flickity-prev-next-button:disabled {
-        display: none;
-    }
-
 /* external css: flickity.css */
 
 
@@ -55,10 +47,6 @@
     width: 80%;
 }
 
-.width-100 {
+.w-100 {
     width: 110%;
-}
-
-.flickity-viewport {
-    transition: width 0.2s;
 }

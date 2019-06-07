@@ -1,17 +1,4 @@
 ﻿/* carousel */
-* {
-    box-sizing: border-box;
-}
-
-
-* {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: sans-serif;
-}
 
 .carousel-cell1 {
     width: 100%;
@@ -22,16 +9,6 @@ body {
     .carousel-cell1:before {
         display: block;
     }
-
-
-.button {
-    font-size: 22px;
-    padding-right: -10%;
-}
-
-.button-group {
-    margin-bottom: 20px;
-}
 
 .medium-first-stack-image {
     width: 200px;
