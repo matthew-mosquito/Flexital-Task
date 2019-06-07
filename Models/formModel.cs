@@ -43,6 +43,7 @@ namespace FlexitolMediPediCampaign.Models
         public string postCode { get; set; }
 
         [Display(Name = "Terms and Conditions")]
+        [Range(typeof(bool), "true", "true", ErrorMessage = "You must accept the terms and conditions")]
         public bool TermsAndConditions { get; set; }
 
         public bool Subscribe { get; set; }
