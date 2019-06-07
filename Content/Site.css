@@ -76,13 +76,8 @@ textarea {
 }
 
 /*Navbar*/
-.mask {
-    background-color: #809293;
-    width: 1920px;
-    height: 77px;
-}
 
-.visit-flexitol-font {
+.small-white-bold {
     width: 202px;
     height: 26px;
     font-size: 16px;
@@ -95,35 +90,24 @@ textarea {
     padding-top: 20px;
 }
 
-.visit-flexitol {
+.mr-170px {
     margin-left: 170px;
 }
 
-.socials {
-    margin-right: 170px;
-}
 
-.social-item {
+.mr-10px{
     margin-right: 10px;
-}
-
-.Visit-Flexitolcouk:hover {
-    color: #ffffff
-}
-
-.Visit-Flexitolcouk:link {
-    text-decoration: none
 }
 
 .no-bullet {
     list-style-type: none;
 }
 
-.navbar-bg {
+.grey-bg {
     background-color: #809293;
 }
 
-.render-image-background {
+.render-background-image-hero-banner {
     background-image: url("images/flexitol-hero-doctorpatient-v-2.png");
     background-color: #cccccc;
     height: 900px;
@@ -138,7 +122,7 @@ textarea {
     margin-right: 3%;
 }
 
-.introducing-medi-pedi {
+.grey-title {
     font-size: 50px;
     line-height: 1.2;
     letter-spacing: normal;
@@ -146,18 +130,7 @@ textarea {
     text-align: center;
 }
 
-.introducing-medi-pedi1 {
-    font-family: Oxygen;
-    font-size: 50px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.2;
-    letter-spacing: normal;
-    color: #809293;
-}
-
-.first-step-towards {
+.small-bold-blue-openSans {
     font-family: OpenSans;
     font-size: 16px;
     font-weight: bold;
@@ -169,73 +142,36 @@ textarea {
     color: #0499ff;
 }
 
-.its-your-turn-row {
-    margin-top: 7%;
-}
 
-.flexitol-medi-p {
+.md-grey-font {
     font-size: 30px;
     line-height: 1.4;
     text-align: center;
     color: #809293;
 }
 
-.its-your-turn {
+.lg-blue-ft {
     font-size: 44px;
     line-height: 1.23;
     text-align: center;
     color: #0499ff;
 }
 
-.request-subtext {
+.sm-grey-font {
     font-size: 18px;
     line-height: 1.23;
     text-align: center;
     color: #809293;
 }
 
-.skincare-badge {
-    padding-top: 100px;
-}
-
-.woman-spa-img {
+.ml-20 {
     margin-left: 20%
 }
 
-.spa-and-form-row {
-    margin-top: 30px;
-}
-
-.ten-medi-pedi-kits {
-    font-family: Oxygen;
-    font-size: 30px;
-    text-align: center;
-    color: #809293;
-    margin-top: 10px;
-}
-
-.rm {
-    margin-top: -20px;
-}
-
-.share-comp {
+.sm-lightblue-font {
     font-size: 18px;
     color: #0499ff;
     text-align: center;
-}
-
-.twitter-icon {
-    margin-left: 10px;
-}
-
-.form {
-    margin-top: 30px;
-    margin-left: 30px;
-}
-
-.terms-conditions-label {
-    font-size: 10px;
-    color: #809293;
 }
 
 .submit-btn {
@@ -247,43 +183,9 @@ textarea {
     padding: 10px 42px;
 }
 
-.forward {
-    background-image: url("/Content/images/forward.svg");
-}
 
-.backward {
-    background-image: url("/Content/images/back.svg");
-}
-
-.row-padding {
+.mt-10 {
     margin-top: 10%;
-}
-
-.row-padding2 {
-    margin-top: 100px;
-}
-
-
-.doctors-img2 {
-    position: absolute;
-    left: 230px;
-}
-
-.testimony-text {
-    font-size: 30px;
-    line-height: 1.53;
-    color: #809293;
-}
-
-.testimony-subtext {
-    font-size: 16px;
-    color: #809293;
-}
-
-.testimony-speech-marks-img {
-    margin-right: 150px;
-    margin-left: -320px;
-    margin-top: 80px;
 }
 
 .pedicure-bg {
@@ -296,45 +198,7 @@ textarea {
     margin-bottom: 5%;
 }
 
-.smiling-doctor-woman {
-    height: 80%;
-}
-
-
-.the-new-pedicure {
-    font-size: 44px;
-    color: #0499ff;
-}
-
-.skincare-with-health {
-    font-size: 18px;
-    color: #809293;
-}
-
-.learn-more {
-    border-radius: 24px;
-    background-color: #0499ff;
-    color: #ffffff;
-    text-decoration: none;
-    display: inline-block;
-    margin: 27px 1px;
-    border: none;
-    padding: 10px 42px;
-}
-
-.flexitol-reduces-wat {
-    font-size: 20px;
-    line-height: 1.5;
-    color: #809293;
-}
-
-.the-new-ped-cont {
-    margin-left: 40%;
-    margin-top: 17%;
-    width: 50%;
-}
-
-.footer {
+.main-footer {
     left: 0;
     bottom: 0;
     height: 200px;
@@ -344,7 +208,7 @@ textarea {
     text-align: center;
 }
 
-.footer2 {
+.sub-footer {
     left: 0;
     bottom: 0;
     height: 50px;
@@ -354,7 +218,7 @@ textarea {
     text-align: center;
 }
 
-.Keep-your-feet-happy {
+.md-white-bold-font {
     width: 200px;
     height: 21px;
     font-size: 18px;
@@ -367,7 +231,7 @@ textarea {
     text-align: left;
 }
 
-.Sign-up-to-receive {
+.sm-white-font {
     width: 300px;
     height: 16px;
     font-size: 14px;
@@ -386,7 +250,7 @@ textarea {
     border-right: solid;
 }
 
-.Read-more {
+.sm-bold-white-font {
     width: 72px;
     height: 19px;
     font-size: 16px;
@@ -400,7 +264,7 @@ textarea {
     margin-right: 76%;
 }
 
-.btm-link {
+.footer-link {
     margin-top: 20px;
     margin-right: 15px;
     margin-left: 15px;
@@ -408,17 +272,7 @@ textarea {
     color: white;
 }
 
-.request-pack-title {
-    font-size: 44px;
-    text-align: center;
-    color: #0499ff;
-}
-.blob {
-    margin-top: 30%;
-    margin-left: 10%;
-}
-
-.carousel-caption-heading {
+.large-black-font {
     font-size: 30px;
     color: #809293;
 }
@@ -428,18 +282,13 @@ textarea {
     color: #809293;
 }
 
-.left-cloud {
+.mt-minus100-ml-10 {
     margin-top: -100%;
     margin-left: -10%;
 }
 
-.right-cloud {
+.mt-minus50 {
     margin-top: -50%;
-}
-
-
-.carousel-quote {
-    width: 100%;
 }
 
 .competition-flowers-background {
