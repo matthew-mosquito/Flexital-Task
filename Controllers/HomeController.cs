@@ -22,7 +22,7 @@ namespace FlexitolMediPediCampaign.Controllers
             if (ModelState.IsValid)
             {
                 FormServices customerDb = new FormServices();
-                if (customerDb.Add_to_db(model))
+                if (customerDb.AddToDb2(model))
                 {
                     ModelState.Clear();
                     return View("ThankYou");

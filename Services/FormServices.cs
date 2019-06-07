@@ -16,9 +16,13 @@ namespace FlexitolMediPediCampaign.Services
         {
             string constring = ConfigurationManager.ConnectionStrings["DefaultConnection"].ToString();
             con = new SqlConnection(constring);
+
         }
+
         public bool Add_to_db(formModel model)
         {
+
+            // previous code
             connection();
 
             string query = "Insert into CompetitionEntries values" +
@@ -44,6 +48,45 @@ namespace FlexitolMediPediCampaign.Services
 
             return true;
             
+        }
+
+        public bool AddToDb2(formModel model)
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ToString();
+            // new code
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+
+                string query = "Insert into CompetitionEntries values" +
+                "(@FirstName, @LastName, @JobTitle, @Email, @AddressLine1," +
+                "@AddressLine2, @PostCode, @TermsAndConditions, @SubscribeMailingList)";
+
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    con.Open();
+
+                    cmd.Parameters.AddWithValue("@Id", model.Id);
+                    cmd.Parameters.AddWithValue("@FirstName", model.firstName);
+                    cmd.Parameters.AddWithValue("@LastName", model.lastName);
+                    cmd.Parameters.AddWithValue("@JobTitle", model.jobTitle);
+                    cmd.Parameters.AddWithValue("@Email", model.Email);
+                    cmd.Parameters.AddWithValue("@AddressLine1", model.AddressLine1);
+                    cmd.Parameters.AddWithValue("@AddressLine2", model.AddressLine2);
+                    cmd.Parameters.AddWithValue("@PostCode", model.postCode);
+                    cmd.Parameters.AddWithValue("@TermsAndConditions", model.TermsAndConditions);
+                    cmd.Parameters.AddWithValue("@SubscribeMailingList", model.Subscribe);
+
+                    var result = cmd.ExecuteNonQuery();
+
+                    if (result > 0)
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
         }
     }
 }
